@@ -1,5 +1,7 @@
-Fall Final Project 24-25 - Restaurant Class
+Fall Final Project 24-25 - Restaurant Class Due 12.18.24
+
 Last Updated: 12.14.24
+
 REQUIREMENTS
 1. 2 Classes - DONE
 2. 2 Objects - WIP
