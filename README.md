@@ -17,5 +17,5 @@ Day 1 - 12.13.24
 - Project approved: Restaurant
 - Planned out project
 - Split roles
--     AA - Restaurant ("Tester"), Table, Customer class
--     SN - Food class, Presentation
+   - AA - Restaurant ("Tester"), Table, Customer class
+   - SN - Food class, Presentation
