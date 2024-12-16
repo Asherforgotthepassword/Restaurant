@@ -21,10 +21,13 @@ Day 1 - 12.13.24
 - Split roles
    - AA - Restaurant ("Tester"), Table, Customer class
    - SN - Food class, Presentation, Javadoc comments
+
 Day 2 - 12.14.24
 - SN finished Food class
 - AA created presentation
+
 Day 3 - 12.15.24
 - AA updated Restaurant, Table, Customer class
+
 Day 4 - 12.16.24
 - AA updated Restaurant, Customer class
