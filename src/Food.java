@@ -2,15 +2,15 @@
  * The Food class represents a food item with name and price.
  */
 public class Food {
-    private String name;
-    private int price;
+    final private String name;
+    private double price;
 
     /**
      * Constructs a new Food object with given name and price.
      * @param name the name of food
      * @param price the price of food
      */
-    public Food(String name, int price)
+    public Food(String name, double price)
     {
         this.name = name;
         this.price = price;
@@ -22,30 +22,20 @@ public class Food {
     public String getName(){
         return name;
     }
-
-    /**
-     * Sets the name of food.
-     * @param name of the food
-     */
-    public void setName(String name){
-        this.name = name;
-    }
     /**
      * Sets the price of food.
      * @return price the price of food
      */
-    public int getPrice(){
+    public double getPrice(){
         return price;
     }
-
     /**
      * Sets the price of food.
      * @param price of the food
      */
-    public void setPrice(int price){
+    public void setPrice(double price){
         this.price = price;
     }
-
     /**
      * Returns a string representation of the food.
      * @return a string representation of the food in the format "name is $price."
