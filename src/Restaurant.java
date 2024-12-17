@@ -57,7 +57,7 @@ public class Restaurant {
 
         while (true) {
             System.out.println("~~~~~~~~~~~~~~~~~~~~");
-            System.out.println("Options:\n1. Check Table Status\n2. Check Customer Status\n3. Manage Tables\n4. Manage Customers\n5. Receive Order\n6. Calculate Checkout");
+            System.out.println("Options:\n1. Check Table Status\n2. Check Customer Status\n3. Manage Tables\n4. Manage Customers\n6. Calculate Checkout");
             System.out.println("~~~~~~~~~~~~~~~~~~~~");
             int option = sc.nextInt();
             switch (option) {
@@ -74,10 +74,10 @@ public class Restaurant {
                     // TODO 2: Manage tables (prompt what customer, then what table, then assign customer to table)
                     break;
                 case 4:
-                    // TODO 3: Manage customers (add/remove customers currently in the restaurant, if you add then )
+                    // TODO 3: Manage customers (add/remove customers currently in the restaurant, if you add then randomly generate an order for their instance variable)
                     break;
                 case 5:
-                    // TODO 4: All customers should have randomized orders,
+                    // TODO 4: Checkout, prompt what table, get customer's order, return food price, automatically removes customer
 
             }
         }
