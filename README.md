@@ -35,6 +35,6 @@ Day 4 - 12.16.24
  - SN added JavaDoc comments on all classes
 
 Day 5 - 12.17.24
- -AA update public interface
- -SN Worked on google slide presentation
+ -AA updated public interface
+ -SN worked on presentation
   
