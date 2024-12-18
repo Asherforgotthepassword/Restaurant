@@ -1,9 +1,10 @@
 /**
- * The Food class represents a food item with name and price.
+ * The Food class represents a food item
+ * It includes a name and price.
  */
 public class Food {
     final private String name;
-    private double price;
+    private final double price;
 
     /**
      * Constructs a new Food object with given name and price.
@@ -28,13 +29,6 @@ public class Food {
      */
     public double getPrice(){
         return price;
-    }
-    /**
-     * Sets the price of food.
-     * @param price of the food
-     */
-    public void setPrice(double price){
-        this.price = price;
     }
     /**
      * Returns a string representation of the food.
