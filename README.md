@@ -34,7 +34,7 @@ Day 4 - 12.16.24
  - AA updated Restaurant, Customer class
  - SN added JavaDoc comments on all classes
 
-Day 5 - 12.17.2024
+Day 5 - 12.17.24
  -AA update public interface
  -SN Worked on google slide presentation
   
