@@ -67,20 +67,78 @@ public class Restaurant {
                         System.out.println(table);
                     }
                     break;
+
                 case 2: // TODO 1: This should print out all customers, similar to table status
-                    System.out.println("");
+                    System.out.println("Table Status:");
+                    for (Table table : tables) {
+                        System.out.println(table);
+                    }
                     break;
+
                 case 3:
                     // TODO 2: Manage tables (prompt what customer, then what table, then assign customer to table)
+                    System.out.print("CUSTOMER NAME: ");
+                    String customerNameInput = sc.nextLine();
+                    System.out.print("Table Number: ");
+                    String tableNumberInput = sc.nextLine();
+
+                    //iterate over tables
+                    for (Table table : tables) {
+                        //find table number matching the user entered table number
+                        if (table.getNumber() == Integer.parseInt(tableNumberInput)) {
+                            //once table is identified, now iterate over customers to match customer name
+                            for (Customer customer : customers) {
+                                if (customer.getName().equals(customerNameInput)) {
+                                    //once customer is identified, assign the table to the customer
+                                    table.assignCustomer(customer);
+                                }
+                            }
+                        }
+                    }
                     break;
+
                 case 4:
                     // TODO 3: Manage customers (add/remove customers currently in the restaurant, if you add then randomly generate an order for their instance variable)
+                    //prompt asking ADD or REMOVE
+                    System.out.println("Add or remove customer: ");
+                    String response = sc.nextLine();
+                    if (response.equals("add")) {
+                        System.out.println("Customer name:  ");
+                        String name = sc.nextLine();
+                        System.out.println("Customer party size:  ");
+                        int party = sc.nextInt();
+                        System.out.println("Customer number: ");
+                        int number = sc.nextInt();
+                        Customer newCustomer = new Customer(name, party);
+                        newCustomer.setNumber(rand.nextInt());
+                        newCustomer.addOrder(menu.get(rand.nextInt(5) + 3));
+                        customers.add(newCustomer);
+                    }
+                    if (response.equals("remove")) {
+                        System.out.println("Customer name:  ");
+                        String name = sc.nextLine();
+                        for (int i = 0; i < customers.size(); i++) {
+                            if (customers.get(i).getName().equals(name)) {
+                                customers.remove(i);
+                                break;
+                            }
+                        }
+                    }
                     break;
+
                 case 5:
                     // TODO 4: Checkout, prompt what table, get customer's order, return food price, automatically removes customer
-
+                    System.out.println("Customer: ");
+                    String name = sc.nextLine();
+                    for (int i = 0; i < customers.size(); i++) {
+                        if (customers.get(i).getName().equals(name)) {
+                            Customer customer = customers.get(i);
+                            double total = customer.getOrder().getPrice();
+                            System.out.println("Total for " + name + ":$" + total);
+                            customers.remove(i);
+                        }
+                    }
             }
         }
-
     }
 }
