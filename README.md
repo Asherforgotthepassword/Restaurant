@@ -35,6 +35,6 @@ Day 4 - 12.16.24
  - SN added JavaDoc comments on all classes
 
 Day 5 - 12.17.24
- - AA updated public interface, finished Restaurant, Table, Customer class
+ - AA updated public interface, finished Restaurant, Table, Customer class, updated presentation
  - SN updated presentation
   
