@@ -31,10 +31,10 @@ Day 3 - 12.15.24
 - SN added to switch case in Restuarant class
 
 Day 4 - 12.16.24
-- AA updated Restaurant, Customer class
-- SN added JavaDoc comments on all classes
+ - AA updated Restaurant, Customer class
+ - SN added JavaDoc comments on all classes
 
 Day 5 - 12.17.2024
--AA update public interface
--SN Worked on google slide presentation
+ -AA update public interface
+ -SN Worked on google slide presentation
   
