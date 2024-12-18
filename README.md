@@ -9,7 +9,7 @@ REQUIREMENTS
 4. 2 If Structure - DONE
 5. Input & Output - DONE
 6. Methods - DONE
-7. Javadoc Comments - WIP
+7. Javadoc Comments - DONE
 8. Programming Log - WIP
 9. Presentation - WIP
 10. Project Idea - DONE
@@ -20,7 +20,7 @@ Day 1 - 12.13.24
 - Planned out project
 - Split roles
    - AA - Restaurant ("Tester"), Table, Customer class
-   - SN - Food class, Presentation, Javadoc comments
+   - SN - Restaurant, Food class, Presentation, Javadoc comments
 
 Day 2 - 12.14.24
 - SN finished Food class
@@ -35,6 +35,6 @@ Day 4 - 12.16.24
  - SN added JavaDoc comments on all classes
 
 Day 5 - 12.17.24
- -AA updated public interface
- -SN worked on presentation
+ - AA updated public interface, finished Restaurant, Table, Customer class
+ - SN updated presentation
   
