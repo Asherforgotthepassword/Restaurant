@@ -10,10 +10,10 @@ REQUIREMENTS
 5. Input & Output - DONE
 6. Methods - DONE
 7. Javadoc Comments - DONE
-8. Programming Log - WIP
-9. Presentation - WIP
+8. Programming Log - DONE
+9. Presentation - DONE
 10. Project Idea - DONE
-11. On Time - WIP
+11. On Time - DONE
 
 Day 1 - 12.13.24
 - Project approved: Restaurant
@@ -37,4 +37,7 @@ Day 4 - 12.16.24
 Day 5 - 12.17.24
  - AA updated public interface, finished Restaurant, Table, Customer class, updated presentation
  - SN updated presentation
-  
+
+Day 6 - 12.18.24, Due
+ - AA uploaded all changes to Github, submitted
+ - AA & SN presented
